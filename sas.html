@@ -562,7 +562,7 @@ var Height Weight;
 <p>The <a href="#sgplot">SGPLOT procedure</a> is a very useful SAS procedure for producing plots from data. For more information on other statements within the SGPLOT procedure, please see the Appendix Section 2.</p>
 <div id="visualize-a-single-continuous-variable-by-producing-a-histogram." class="section level2">
 <h2>2.1 Visualize a single continuous variable by producing a histogram.</h2>
-<pre class="sas"><code><span class="comment"><span class="kw">proc sgplot</span> data = student;
+<pre class="sas"><code><span class="kw">proc sgplot</span> data = student;
   histogram weight / binwidth=20 binstart=40 scale=count;
   xaxis values=(40 to 160 by 20);
 <span class="kw">run</span>;</code></pre>
